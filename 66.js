@@ -1,8 +1,4 @@
 const plusOne = (digits) => {
-  if (!digits.length) {
-    return digits;
-  }
-
   for (let i = digits.length - 1; i >= 0; i--) {
     const currentDigit = digits[i];
 
